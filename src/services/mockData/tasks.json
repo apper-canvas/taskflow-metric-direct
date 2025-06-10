@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "title": "Review quarterly budget proposal",
+    "description": "Analyze Q4 budget allocations and prepare recommendations for the finance team meeting",
+    "categoryId": "work",
+    "priority": "high",
+    "dueDate": "2024-01-15T09:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-10T08:30:00.000Z",
+    "completedAt": null
+  },
+  {
+    "id": "2",
+    "title": "Update project documentation",
+    "description": "Revise API documentation and user guides for the latest product release",
+    "categoryId": "work",
+    "priority": "medium",
+    "dueDate": "2024-01-18T17:00:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-08T14:20:00.000Z",
+    "completedAt": null
+  },
+  {
+    "id": "3",
+    "title": "Schedule dentist appointment",
+    "description": "Book routine cleaning and checkup for next month",
+    "categoryId": "personal",
+    "priority": "low",
+    "dueDate": "2024-01-20T12:00:00.000Z",
+    "completed": true,
+    "createdAt": "2024-01-05T11:15:00.000Z",
+    "completedAt": "2024-01-12T16:45:00.000Z"
+  },
+  {
+    "id": "4",
+    "title": "Plan weekend hiking trip",
+    "description": "Research trails, check weather forecast, and pack gear for Saturday adventure",
+    "categoryId": "personal",
+    "priority": "medium",
+    "dueDate": null,
+    "completed": false,
+    "createdAt": "2024-01-09T19:30:00.000Z",
+    "completedAt": null
+  },
+  {
+    "id": "5",
+    "title": "Complete online React course",
+    "description": "Finish modules 8-12 and submit the final project for certification",
+    "categoryId": "learning",
+    "priority": "high",
+    "dueDate": "2024-01-25T23:59:00.000Z",
+    "completed": false,
+    "createdAt": "2024-01-07T20:00:00.000Z",
+    "completedAt": null
+  }
+]
