@@ -1,9 +1,11 @@
-import { motion } from 'framer-motion'
-import { useNavigate } from 'react-router-dom'
-import ApperIcon from '../components/ApperIcon'
+import React from 'react';
+import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
+import ApperIcon from '@/components/ApperIcon';
+import Button from '@/components/atoms/Button';
 
-function NotFound() {
-  const navigate = useNavigate()
+function NotFoundPage() {
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
@@ -33,27 +35,27 @@ function NotFound() {
         </p>
         
         <div className="space-y-3">
-          <motion.button
+          <Button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => navigate('/')}
             className="w-full px-6 py-3 bg-primary text-white rounded-lg hover:bg-blue-600 transition-colors font-medium"
           >
             Go to Tasks
-          </motion.button>
+          </Button>
           
-          <motion.button
+          <Button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => window.history.back()}
             className="w-full px-6 py-3 text-gray-600 hover:text-gray-900 transition-colors"
           >
             Go Back
-          </motion.button>
+          </Button>
         </div>
       </motion.div>
     </div>
-  )
+  );
 }
 
-export default NotFound
+export default NotFoundPage;
